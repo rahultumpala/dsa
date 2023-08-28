@@ -22,7 +22,7 @@ This will serve as a reference material for me (and others).
 11. B+ Tree  
 12. Graph (using adjacency list)  
   
-### List Of Algorithms:  
+### List of Algorithms:  
   
 **_1. Heapify (for binary heap)_**  
 **_2. Preorder Traversal (in Binary Tree)_**  
