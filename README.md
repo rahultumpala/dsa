@@ -12,7 +12,7 @@ This will serve as a reference material for me (and others).
 **_2. Queue_**  
 **_3. Linked List_**  
 **_4. Hash Table_**  
-**_5. Binary Search Tree_** 
+**_5. Binary Search Tree_**  
 **_6. Binary Heap (heapify)_**  
 7. Minimum stack / Minimum queue  
 7. Fenwick Tree  
