@@ -14,7 +14,7 @@ This will serve as a reference material for me (and others).
 **_4. Hash Table_**  
 **_5. Binary Search Tree_** 
 **_6. Binary Heap (heapify)_**  
-7. Minimum stack / Minimum queue  
+**_7. Minimum stack / Minimum queue_**    
 7. Fenwick Tree  
 8. Segment Tree  
 9. Disjoint-set (Union Find data structure)  
