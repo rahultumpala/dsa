@@ -42,5 +42,6 @@ This will serve as a reference material for me (and others).
 16. String matching (KMP, Rabin Karp)  
 17. Lowest Common Ancestor (LCA)  
 18. Bipartite Check  
+19. Boyer-Moore majority vote algorithm  
   
 _~for the love of programming_  
