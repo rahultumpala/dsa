@@ -15,12 +15,12 @@ This will serve as a reference material for me (and others).
 **_5. Binary Search Tree_**  
 **_6. Binary Heap (heapify)_**  
 **_7. Minimum stack / Minimum queue_**    
-7. Fenwick Tree  
-8. Segment Tree  
-9. Disjoint-set (Union Find data structure)  
-10. B-Tree  
-11. B+ Tree  
-12. Graph (using adjacency list)  
+**_8. Fenwick Tree_**  
+9. Segment Tree  
+10. Disjoint-set (Union Find data structure)  
+11. B-Tree  
+12. B+ Tree  
+13. Graph (using adjacency list)  
   
 ### List of Algorithms:  
   
