@@ -8,40 +8,40 @@ This will serve as a reference material for me (and others).
 
 ### List of Data Structures:
 
-**_1. Stack_**  
-**_2. Queue_**  
-**_3. Linked List_**  
-**_4. Hash Table_**  
-**_5. Binary Search Tree_**  
-**_6. Binary Heap (heapify)_**  
-**_7. Minimum stack / Minimum queue_**  
-**_8. Fenwick Tree_**  
-9. Segment Tree  
-10. Disjoint-set (Union Find data structure)  
-11. B-Tree  
-12. B+ Tree  
-13. Graph (using adjacency list)
+**_1. Stack_**</br>
+**_2. Queue_**</br>
+**_3. Linked List_**</br>
+**_4. Hash Table_**</br>
+**_5. Binary Search Tree_**</br>
+**_6. Binary Heap (heapify)_**</br>
+**_7. Minimum stack / Minimum queue_**</br>
+**_8. Fenwick Tree_**</br>
+9. Segment Tree</br>
+10. Disjoint-set (Union Find data structure)</br>
+11. B-Tree</br>
+12. B+ Tree</br>
+13. Graph (using adjacency list)</br>
 
-### List of Algorithms:
+### List of Algorithms</br>
 
-**_1. Heapify (for binary heap)_**  
-**_2. Preorder Traversal (in Binary Tree)_**  
-**_3. Inorder Traversal (in Binary Tree)_**  
-**_4. Postorder Traversal (in Binary Tree)_**  
-**_5. Binary Search_**  
-6. Level order Traversal (in Binary Tree, N-ary Tree)  
-7. Breadth First Search (BFS)  
-8. Depth First Search (DFS)  
-9. Dijkstra - finding shortest path from given vertex  
-10. Kadane's algorithm  
-11. Cycle detection (using Floyd's Algorithm)  
-12. Sieve of Eratosthenes  
-13. Binary Exponentiation  
-14. Minimum Spanning Tree (MST - using Prim's, Kruskal's Algorithm)  
-15. Convex Hull  
-16. String matching (KMP, Rabin Karp)  
-17. Lowest Common Ancestor (LCA)  
-18. Bipartite Check  
-19. Boyer-Moore majority vote algorithm  
+**_1. Heapify (for binary heap)_**</br>
+**_2. Preorder Traversal (in Binary Tree)_**</br>
+**_3. Inorder Traversal (in Binary Tree)_**</br>
+**_4. Postorder Traversal (in Binary Tree)_**</br>
+**_5. Binary Search_**</br>
+**_6. Level order Traversal (in Binary Tree, N-ary Tree)_**</br>
+7. Breadth First Search (BFS)</br>
+8. Depth First Search (DFS)</br>
+9. Dijkstra - finding shortest path from given vertex</br>
+10. Kadane's algorithm</br>
+11. Cycle detection (using Floyd's Algorithm)</br>
+12. Sieve of Eratosthenes</br>
+13. Binary Exponentiation</br>
+14. Minimum Spanning Tree (MST - using Prim's, Kruskal's Algorithm)</br>
+15. Convex Hull</br>
+16. String matching (KMP, Rabin Karp)</br>
+17. Lowest Common Ancestor (LCA)</br>
+18. Bipartite Check</br>
+19. Boyer-Moore majority vote algorithm</br>
 
-_~for the love of programming_  
+_~for the love of programming_</br>
