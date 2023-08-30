@@ -1,0 +1,53 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+/*
+A Tree is also technically a graph with N nodes and N-1 edges.
+Level order traversal of a binary tree is similar to doing a Breadth-first search on a graph.
+DFS is dfs, no variations.
+
+structure of the tree node we will be using.
+*/
+typedef struct node
+{
+    int val;
+    node *left;
+    node *right;
+} node;
+
+/*
+
+I will just print the values. Modify as you wish.
+
+*/
+void levelOrderTraversal(node *root)
+{
+    queue<pair<node *, int>> q;
+    int curDepth = 0;
+    q.push({root, curDepth});
+    while (!q.empty())
+    {
+        node *top = q.front().first;
+        int depth = q.front().second;
+        q.pop();
+        if (depth > curDepth)
+        {
+            cout << endl; // print a new line to show we are one level deeper.
+            curDepth = depth;
+        }
+        cout << top->val << " ";
+
+        // elements are pushed in left to right manner
+        if (top->left != nullptr)
+            q.push({top->left, depth + 1});
+        if (top->right != nullptr)
+            q.push({top->right, depth + 1});
+    }
+    cout << endl; // print new line after last level in the tree.
+}
+
+int main()
+{
+    return 0;
+}
