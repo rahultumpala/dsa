@@ -1,4 +1,4 @@
-## Data Structures and Algorithms from sratch
+## Data Structures and Algorithms from scratch
 
 I am redoing everything from ground up. The purpose is to implement data structures in C and in the process learn to steer through the varied challenges and become a better programmer.
 
