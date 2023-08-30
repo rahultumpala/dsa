@@ -46,6 +46,15 @@ public:
         return prefixSum(r) - prefixSum(l - 1);
     }
 
+    void pointUpdate(int idx, int val) {
+        idx++; // since we are using one indexed tree
+        int diff = val - values[idx-1];
+        while(idx < tree.size()) {
+            tree[idx] += diff;
+            idx = idx + (idx & -idx);
+        }
+    }
+
     void printTree()
     {
         printf("Index  ArrayValue  BinaryIndex  TreeValue\n");
