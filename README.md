@@ -30,8 +30,8 @@ This will serve as a reference material for me (and others).
 **_4. Postorder Traversal (in Binary Tree)_**</br>
 **_5. Binary Search_**</br>
 **_6. Level order Traversal (in Binary Tree, N-ary Tree)_**</br>
-7. Breadth First Search (BFS)</br>
-8. Depth First Search (DFS)</br>
+**_7. Breadth First Search (BFS)_**</br>
+**_8. Depth First Search (DFS)_**</br>
 9. Dijkstra - finding shortest path from given vertex</br>
 10. Kadane's algorithm</br>
 11. Cycle detection (using Floyd's Algorithm)</br>

@@ -2,4 +2,5 @@
 output.*
 output
 *.o
+*.out
 *.exe
