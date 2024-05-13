@@ -14,9 +14,9 @@ This will serve as a reference material for me (and others).
 4. [Hash Table](./DataStructures/hashtable.c)</br>
 5. [Binary Search Tree](./DataStructures/bst.c)</br>
 6. [Binary Heap (heapify)](./DataStructures/heap.c)</br>
-7. [Minimum stack](./DataStructures/minStack.c)</br>
-8. [Minimum queue](./DataStructures/minQueue.c)</br>
-9. [Fenwick Tree](./DataStructures/fenwickTree.c)</br>
+7. [Minimum stack](./DataStructures/minStack.cpp)</br>
+8. [Minimum queue](./DataStructures/minQueue.cpp)</br>
+9. [Fenwick Tree](./DataStructures/fenwickTree.cpp)</br>
 10. Segment Tree</br>
 11. Disjoint-set (Union Find data structure)</br>
 12. B-Tree</br>
