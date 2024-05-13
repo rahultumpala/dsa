@@ -8,30 +8,31 @@ This will serve as a reference material for me (and others).
 
 ### List of Data Structures:
 
-**_1. Stack_**</br>
-**_2. Queue_**</br>
-**_3. Linked List_**</br>
-**_4. Hash Table_**</br>
-**_5. Binary Search Tree_**</br>
-**_6. Binary Heap (heapify)_**</br>
-**_7. Minimum stack / Minimum queue_**</br>
-**_8. Fenwick Tree_**</br>
-9. Segment Tree</br>
-10. Disjoint-set (Union Find data structure)</br>
-11. B-Tree</br>
-12. B+ Tree</br>
-13. Graph (using adjacency list)</br>
+1. [Stack](./DataStructures/stack.c)</br>
+2. [Queue](./DataStructures/queue.c)</br>
+3. [Linked List](./DataStructures/linkedList.c)</br>
+4. [Hash Table](./DataStructures/hashtable.c)</br>
+5. [Binary Search Tree](./DataStructures/bst.c)</br>
+6. [Binary Heap (heapify)](./DataStructures/heap.c)</br>
+7. [Minimum stack](./DataStructures/minStack.c)</br>
+8. [Minimum queue](./DataStructures/minQueue.c)</br>
+9. [Fenwick Tree](./DataStructures/fenwickTree.c)</br>
+10. Segment Tree</br>
+11. Disjoint-set (Union Find data structure)</br>
+12. B-Tree</br>
+13. B+ Tree</br>
+14. Graph (using adjacency list)</br>
 
 ### List of Algorithms</br>
 
-**_1. Heapify (for binary heap)_**</br>
-**_2. Preorder Traversal (in Binary Tree)_**</br>
-**_3. Inorder Traversal (in Binary Tree)_**</br>
-**_4. Postorder Traversal (in Binary Tree)_**</br>
-**_5. Binary Search_**</br>
-**_6. Level order Traversal (in Binary Tree, N-ary Tree)_**</br>
-**_7. Breadth First Search (BFS)_**</br>
-**_8. Depth First Search (DFS)_**</br>
+1. [Heapify (for binary heap)](./DataStructures/heap.c)</br>
+2. [Preorder Traversal (in Binary Tree)](./Algorithms/treeTraversals.cpp)</br>
+3. [Inorder Traversal (in Binary Tree)](./Algorithms/treeTraversals.cpp)</br>
+4. [Postorder Traversal (in Binary Tree)](./Algorithms/treeTraversals.cpp)</br>
+5. [Binary Search](./Algorithms/binarySearch.cpp)</br>
+6. [Level order Traversal (in Binary Tree, N-ary Tree)](./Algorithms/graphTraversals.cpp)</br>
+7. [Breadth First Search (BFS)](./Algorithms/graphTraversals.cpp)</br>
+8. [Depth First Search (DFS)](./Algorithms/graphTraversals.cpp)</br>
 9. Dijkstra - finding shortest path from given vertex</br>
 10. Kadane's algorithm</br>
 11. Cycle detection (using Floyd's Algorithm)</br>
@@ -41,6 +42,7 @@ This will serve as a reference material for me (and others).
 15. Convex Hull</br>
 16. String matching (KMP, Rabin Karp)</br>
 17. Lowest Common Ancestor (LCA)</br>
+	- with [Binary Lifting](./Algorithms/Binary_Lifting.cpp)
 18. Bipartite Check</br>
 19. Boyer-Moore majority vote algorithm</br>
 
