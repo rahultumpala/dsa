@@ -33,7 +33,7 @@ This will serve as a reference material for me (and others).
 6. [Level order Traversal (in Binary Tree, N-ary Tree)](./Algorithms/graphTraversals.cpp)</br>
 7. [Breadth First Search (BFS)](./Algorithms/graphTraversals.cpp)</br>
 8. [Depth First Search (DFS)](./Algorithms/graphTraversals.cpp)</br>
-9. Dijkstra - finding shortest path from given vertex</br>
+9. [Dijkstra - finding shortest path from given vertex](./Algorithms/dijkstras.cpp)</br>
 10. Kadane's algorithm</br>
 11. Cycle detection (using Floyd's Algorithm)</br>
 12. Sieve of Eratosthenes</br>
