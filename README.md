@@ -35,7 +35,7 @@ This will serve as a reference material for me (and others).
 9. [Dijkstra - finding shortest path from given vertex](./Algorithms/dijkstras.cpp)</br>
 10. Kadane's algorithm</br>
 11. Cycle detection (using Floyd's Algorithm)</br>
-12. Sieve of Eratosthenes</br>
+12. [Sieve of Eratosthenes](./Algorithms/sieve.c)</br>
 13. Binary Exponentiation</br>
 14. Minimum Spanning Tree (MST - using Prim's, Kruskal's Algorithm)</br>
 15. Convex Hull</br>
