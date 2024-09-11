@@ -42,7 +42,7 @@ This will serve as a reference material for me (and others).
 16. String matching (KMP, Rabin Karp)</br>
 17. Lowest Common Ancestor (LCA)</br>
 	- with [Binary Lifting](./Algorithms/Binary_Lifting.cpp)
-18. Bipartite Check</br>
+18. [Bipartite Check](./Algorithms/bipartite_check.cpp)</br>
 19. Boyer-Moore majority vote algorithm</br>
 
 _~for the love of programming_</br>
