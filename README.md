@@ -18,10 +18,9 @@ This will serve as a reference material for me (and others).
 8. [Minimum queue](./DataStructures/minQueue.cpp)</br>
 9. [Fenwick Tree](./DataStructures/fenwickTree.cpp)</br>
 10. [Segment Tree](./DataStructures/segmentTree.cpp)</br>
-11. Disjoint-set (Union Find data structure)</br>
-12. B-Tree</br>
-13. B+ Tree</br>
-14. Graph (using adjacency list)</br>
+11. B-Tree</br>
+12. B+ Tree</br>
+13. [Graph (using adjacency list)](./Algorithms/graphTraversals.cpp)</br>
 
 ### List of Algorithms</br>
 
