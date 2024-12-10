@@ -44,5 +44,6 @@ This will serve as a reference material for me (and others).
 	- with [Binary Lifting](./Algorithms/Binary_Lifting.cpp)
 18. [Bipartite Check](./Algorithms/bipartite_check.cpp)</br>
 19. Boyer-Moore majority vote algorithm</br>
+20. [Generate all possible permutations](./Algorithms/generate_permutations.cpp)</br>
 
 _~for the love of programming_</br>
