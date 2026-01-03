@@ -6,6 +6,8 @@ I will be writing (most) Data Structures in C and Algorithms in C++ using STL so
 
 This will serve as a reference material for me (and others).
 
+UPD 03/01/26: I couldn't find any good libraries in Elixir for data structures and there's no C++ like STL. So, I've decided to rewrite the data structures in Elixir lang.
+
 ### List of Data Structures:
 
 1. [Stack](./DataStructures/stack.c)</br>
