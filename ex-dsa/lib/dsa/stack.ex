@@ -13,6 +13,13 @@ defmodule DSA.Stack do
     [item | stk]
   end
 
+  def top(%__MODULE__{items: items} = _stk) do
+    case items do
+      [] -> {:error, "Cannot read from empty stack."}
+      [top | _rest] -> {:ok, top}
+    end
+  end
+
   @doc """
   Pop an item from the Stack.
   Returns:
