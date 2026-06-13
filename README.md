@@ -14,7 +14,7 @@ UPD 03/01/26: I couldn't find any good libraries in Elixir for data structures a
 2. Queue -- [C](./DataStructures/queue.c) -- [Elixir](./ex-dsa/lib/dsa/queue.ex)</br>
 3. [Linked List](./DataStructures/linkedList.c)</br>
 4. [Hash Table](./DataStructures/hashtable.c)</br>
-5. [Binary Search Tree](./DataStructures/bst.c)</br>
+5. Binary Search Tree -- [C](./DataStructures/bst.c) -- [Elixir](./ex-dsa/lib/dsa/bst.ex)</br>
 6. [Binary Heap (heapify)](./DataStructures/heap.c)</br>
 7. [Minimum stack](./DataStructures/minStack.cpp)</br>
 8. [Minimum queue](./DataStructures/minQueue.cpp)</br>
