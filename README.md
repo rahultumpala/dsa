@@ -23,6 +23,7 @@ UPD 03/01/26: I couldn't find any good libraries in Elixir for data structures a
 11. B-Tree</br>
 12. B+ Tree</br>
 13. [Graph (using adjacency list)](./Algorithms/graphTraversals.cpp)</br>
+14. [Trie](./DataStructures/trie.c)</br>
 
 ### List of Algorithms</br>
 
@@ -41,7 +42,13 @@ UPD 03/01/26: I couldn't find any good libraries in Elixir for data structures a
 13. Binary Exponentiation</br>
 14. Minimum Spanning Tree (MST - using Prim's, Kruskal's Algorithm)</br>
 15. Convex Hull</br>
-16. String matching (KMP, Rabin Karp)</br>
+16. Strings</br>
+    1.  [KMP](./Algorithms/KMP.cpp)
+    2.  [Rabin Karp](./Algorithms/RabinKarp.cpp)
+    3.  [Z Function](./Algorithms/Z-Function.cpp)
+    4.  Longest Palindromic Substring
+        1.  [Naive](./Algorithms/longestPalindromicSubstring.cpp)
+        2.  [Manacher's Algorithm](./Algorithms/manachers.cpp)
 17. Lowest Common Ancestor (LCA)</br>
 	- with [Binary Lifting](./Algorithms/Binary_Lifting.cpp)
 18. [Bipartite Check](./Algorithms/bipartite_check.cpp)</br>
