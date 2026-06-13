@@ -5,12 +5,12 @@ defmodule DSA.Trie do
   Simply, a Trie can be represented as a nested Map.
 
   Example:
-    Consider the words with the same root character ["homework", "homeland", "holiday"}
+    Consider the words with the same root character ["homework", "homeland", "holiday", "home"]
     The trie version is
       h
       └── o
           ├── m
-          │   └── e
+          │   └── e*     (* - denotes the end of a word)
           │       ├── w
           │       │   └── o
           │       │       └── r
@@ -32,7 +32,8 @@ defmodule DSA.Trie do
           "m" => %{
             "e" => %{
               "l" => %{"a" => %{"n" => %{"d" => %{end: true}}}},
-              "w" => %{"o" => %{"r" => %{"k" => %{end: true}}}}
+              "w" => %{"o" => %{"r" => %{"k" => %{end: true}}}},
+              end: true
             }
           }
         }
