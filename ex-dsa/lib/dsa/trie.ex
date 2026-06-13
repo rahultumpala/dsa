@@ -1,6 +1,6 @@
 defmodule DSA.Trie do
   @moduledoc """
-  A sophisticated implementation can be written using structs but this module uses nested lists.
+  A sophisticated implementation can be written using structs but this module uses nested Maps.
 
   Simply, a Trie can be represented as a nested Map.
 
