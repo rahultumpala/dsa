@@ -23,7 +23,7 @@ UPD 03/01/26: I couldn't find any good libraries in Elixir for data structures a
 11. B-Tree</br>
 12. B+ Tree</br>
 13. [Graph (using adjacency list)](./Algorithms/graphTraversals.cpp)</br>
-14. [Trie](./DataStructures/trie.c)</br>
+14. Trie -- [C](./DataStructures/trie.c) -- [Elixir](./ex-dsa/lib/dsa/trie.ex)</br>
 
 ### List of Algorithms</br>
 
