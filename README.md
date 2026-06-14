@@ -15,7 +15,7 @@ UPD 03/01/26: I couldn't find any good libraries in Elixir for data structures a
 3. [Linked List](./DataStructures/linkedList.c)</br>
 4. [Hash Table](./DataStructures/hashtable.c)</br>
 5. Binary Search Tree -- [C](./DataStructures/bst.c) -- [Elixir](./ex-dsa/lib/dsa/bst.ex)</br>
-6. [Binary Heap (heapify)](./DataStructures/heap.c)</br>
+6. Binary Heap (heapify) -- [C](./DataStructures/heap.c) -- [Elixir](./ex-dsa/lib/dsa/heap.ex)</br>
 7. [Minimum stack](./DataStructures/minStack.cpp)</br>
 8. [Minimum queue](./DataStructures/minQueue.cpp)</br>
 9. [Fenwick Tree](./DataStructures/fenwickTree.cpp)</br>
@@ -27,7 +27,7 @@ UPD 03/01/26: I couldn't find any good libraries in Elixir for data structures a
 
 ### List of Algorithms</br>
 
-1. [Heapify (for binary heap)](./DataStructures/heap.c)</br>
+1. Heapify (for binary heap) -- [C](./DataStructures/heap.c) -- [Elixir](./ex-dsa/lib/dsa/heap.ex)</br>
 2. [Preorder Traversal (in Binary Tree)](./Algorithms/treeTraversals.cpp)</br>
 3. [Inorder Traversal (in Binary Tree)](./Algorithms/treeTraversals.cpp)</br>
 4. [Postorder Traversal (in Binary Tree)](./Algorithms/treeTraversals.cpp)</br>
