@@ -1,4 +1,6 @@
 defmodule DSA.Heap do
+  defstruct [:type, count: 0, items: []]
+
   @moduledoc """
     For any given node C, if P is the parent node of C,
       In a max heap, the value at P is greater than or equal to the value at C.
@@ -7,11 +9,60 @@ defmodule DSA.Heap do
     The node at the "top" of the heap (with no parents) is called the root node.
   """
 
-  def heapify(list, type \\ :max) when is_list(list) do
-    count = Enum.count(list)
-
-    heapify(list, 0, count, type)
+  @doc """
+    Adds an element to the heap and returns the updated struct.
+  """
+  def push(%__MODULE__{count: count, items: items, type: type} = _heap, new_element) do
+    %__MODULE__{
+      count: count + 1,
+      items: heapify([new_element | items], 0, count + 1, type),
+      type: type
+    }
   end
+
+  @doc """
+    Pops the top element from the struct and returns a 2 element tuple.
+    {top_element, updated_struct}
+  """
+  def pop(%__MODULE__{count: count, items: items, type: type} = heap) do
+    case count do
+      0 ->
+        {nil, heap}
+
+      _ ->
+        [h | rest] = items
+
+        {h,
+         %__MODULE__{
+           count: count - 1,
+           items: heapify(rest, 0, count - 1, type),
+           type: type
+         }}
+    end
+  end
+
+  @doc """
+    Converts the input list into a Heap.
+    Type can be either of :min , :max
+  """
+  def heapify(list, type \\ :max) when is_list(list) do
+    len = Enum.count(list)
+
+    list =
+      0..(len - 1)
+      |> Enum.reverse()
+      |> Enum.reduce(list, fn idx, list ->
+        heapify(list, idx, len, type)
+      end)
+
+    %__MODULE__{
+      count: len,
+      items: list,
+      type: type
+    }
+  end
+
+  defp heapify([], _, _, _), do: []
 
   defp heapify(list, idx, len, type) do
     cur = Enum.at(list, idx)
